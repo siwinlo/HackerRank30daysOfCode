@@ -2,7 +2,7 @@ function main() {
     const n = parseInt(readLine(), 10);
     const countArray = [];
     let count = 0;
-    // this converts the string into binary and splits it into an array of single digits
+    // this converts the string into binary (radix=2) and splits it into an array of single digits
     let inputBinary = n.toString(2).split('');
 
     inputBinary.forEach((digit, index)=> {
